@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: rental-calculator
+  server:
+    port: ${PORT:8080}
+
+jackson:
+  bean-introspection-module: true
