@@ -1,3 +1,10 @@
+micronaut:
+  http:
+    services:
+      price-calculator:
+        urls:
+          - https://intentionally-incorrect-url-so-we-fallback-to-mock
+
 app:
   initialCars:
     - registration: TEST-0
@@ -16,3 +23,8 @@ app:
       brand: Brand3
       model: Model3
       category: STATION_WAGON
+
+priceCalculator:
+  retry:
+    attempts: 1
+    delay: 1ms
