@@ -40,6 +40,7 @@ dependencies {
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
     runtimeOnly "com.h2database:h2"
     runtimeOnly "com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8"
+    testCompile("org.assertj:assertj-core:3.11.1")
     testAnnotationProcessor "io.micronaut:micronaut-inject-java"
     testImplementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     testImplementation "io.micronaut.test:micronaut-test-kotlintest"
