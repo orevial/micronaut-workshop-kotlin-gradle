@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: rental-registry
+  server:
+    port: 8082
+---
+mongodb:
+  uri: "mongodb://${MONGO_HOST:localhost}:${MONGO_PORT:27017}"
+---
+agencies:
+  databaseName: micronaut
+  collectionName: agencies

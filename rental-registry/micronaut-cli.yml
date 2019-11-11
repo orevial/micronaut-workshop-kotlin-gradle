@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.stacklabs.micronaut.workshop.registry
+---
+testFramework: junit
+sourceLanguage: kotlin

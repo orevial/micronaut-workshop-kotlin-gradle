@@ -1,3 +1,4 @@
 include 'api'
 include 'rental-calculator'
 include 'rental-agency'
+include 'rental-registry'
