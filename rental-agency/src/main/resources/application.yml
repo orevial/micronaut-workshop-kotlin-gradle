@@ -2,6 +2,11 @@
 micronaut:
   application:
     name: rental-agency
+  http:
+    services:
+      price-calculator:
+        urls:
+          - https://rental-calculator-rlhwc3imia-ew.a.run.app
 
 app:
   initialCars:
