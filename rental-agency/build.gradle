@@ -23,6 +23,8 @@ configurations {
 
 dependencies {
     compile project(":api")
+    compile 'io.micronaut:micronaut-management'
+    compile "io.micronaut.configuration:micronaut-micrometer-core"
     implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     implementation "io.micronaut:micronaut-http-client"
     implementation "io.micronaut.configuration:micronaut-hibernate-jpa"

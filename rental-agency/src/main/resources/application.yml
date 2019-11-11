@@ -19,6 +19,12 @@ app:
       model: Focus
       category: SUV
 
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+    details-visible: ANONYMOUS
+
 ---
 datasources:
   default:
