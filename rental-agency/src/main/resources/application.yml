@@ -3,6 +3,17 @@ micronaut:
   application:
     name: rental-agency
 
+app:
+  initialCars:
+    - registration: AA-123-VV
+      brand: Renault
+      model: Capture
+      category: SUV
+    - registration: BB-456-UU
+      brand: Ford
+      model: Focus
+      category: SUV
+
 ---
 datasources:
   default:
