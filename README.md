@@ -14,4 +14,4 @@ Branches of this repository are as follow:
 
 As explained in the [workshop](https://ateliers.stack-labs.com/md/micronaut_workshop), this repository aims at working with the following architecture:
 
-![Micronaut workshop architecture](/docs/architecture.png)
+![Micronaut workshop architecture](docs/architecture.png)
